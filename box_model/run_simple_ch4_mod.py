@@ -42,6 +42,7 @@ for scen in scen_list:
             oh_run_list = ['']
         elif oh_anomaly == 'OsloCTM3':
             oh_run_list = ['aerocom_historical','histO3','histO3_ceds2021']
+            #Note: input fields availible from ../figures/INPUT/
         elif oh_anomaly == 'AerChemMIP':
             oh_run_list = ['modelmean']
         elif oh_anomaly == 'CCMI':

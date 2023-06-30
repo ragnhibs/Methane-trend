@@ -6,10 +6,12 @@ plt.rcParams['figure.dpi'] = 300
 
 anom_year = 2000
 
+path2 = 'INPUT/'
 path = '/div/qbo/users/ragnhibs/Methane/OH/'
 
 scen = 'aerocom_historical'
-filename = path + 'OsloCTM3/ForBoxModel/OsloCTM3_OH_unint_' + scen + '.txt'
+filename = path2 + 'OsloCTM3_OH_unint_' + scen + '.txt'
+#filename = path + 'OsloCTM3/ForBoxModel/OsloCTM3_OH_unint_' + scen + '.txt'
 data_met = pd.read_csv(filename, index_col=0)
 val_ref =data_met.loc[anom_year] 
 data_met = data_met.div(val_ref)
@@ -19,7 +21,8 @@ label_met='OsloCTM3 (CEDS17) variable meteorology'
 print(data_met)
 
 scen = 'histO3'
-filename = path + 'OsloCTM3/ForBoxModel/OsloCTM3_OH_unint_' + scen + '.txt'
+#filename = path + 'OsloCTM3/ForBoxModel/OsloCTM3_OH_unint_' + scen + '.txt'
+filename = path2 + 'OsloCTM3_OH_unint_' + scen + '.txt'
 data_const_met= pd.read_csv(filename, index_col=0)
 label_const_met='OsloCTM3 (CEDS17) fixed meteorology (Year 2010)'
 val_ref =data_const_met.loc[anom_year] 
@@ -27,7 +30,8 @@ data_const_met = data_const_met.div(val_ref)
 
 
 scen = 'histO3_ceds2021'
-filename = path+'OsloCTM3/ForBoxModel/OsloCTM3_OH_unint_' + scen + '.txt'
+#filename = path+'OsloCTM3/ForBoxModel/OsloCTM3_OH_unint_' + scen + '.txt'
+filename = path2+'OsloCTM3_OH_unint_' + scen + '.txt'
 data_const_met_ceds21= pd.read_csv(filename, index_col=0)
 label_const_met_ceds21='OsloCTM3 (CEDS21+COVID)'
 
