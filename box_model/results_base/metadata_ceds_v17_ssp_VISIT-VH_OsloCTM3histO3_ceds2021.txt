@@ -1,0 +1,2 @@
+,startyr,endyear,TAU_1,TAU_2,TAU_3,BETA_CH4,em_nat,em_antr_scen,em_bb_scen,oh_anomaly,clm_run,clm_anomaly,wet_emis,oh_run,filename_oh
+Value,1950,2020,9.6,120,160,2.84,215,ceds_v17_ssp,GFEDv41s,OsloCTM3,VISIT-VH,anom_yr,149.0,histO3_ceds2021,OsloCTM3_CH4lifetime_histO3_ceds2021.txt
