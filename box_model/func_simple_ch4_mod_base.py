@@ -69,7 +69,8 @@ def ch4_mod(em_antr_scen,em_bb_scen,oh_anomaly,oh_run,
     conc_ch4.loc[startyr:endyear]=-1
     
     #************Read anthropogenic emissions*********************
-    path = '/div/qbo/users/ragnhibs/ReGame/metan_trend/figures/INPUT/'
+    
+    path = '../figures/INPUT/'
     filename = 'anthropogenic_emissions_v2_gfed.txt'
     data_emis = pd.read_csv(path+filename,delimiter=',',index_col=0)
     #Antropogenic emissions:
