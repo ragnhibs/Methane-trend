@@ -6,7 +6,7 @@ Box model and scripts for the paper "Methane trend over the last decades driven 
 ## Figures
 
 ### Figures
-Figure 1:
+Figure 1: box_model/plot_figure_1.py
 
 Figure 2: figures/plot_figure_2.py
 
@@ -24,11 +24,11 @@ Figure 7: figures/plot_figure_7.py
 
 Figure 1: figures/plot_figure_2.py
 
-Figure 2:
+Figure 2: box_model/plot_supplementary_figure_2-4.py
 
-Figure 3:
+Figure 3: box_model/plot_supplementary_figure_2-4.py
 
-Figure 4:
+Figure 4: box_model/plot_supplementary_figure_2-4.py
 
 Figure 5: figures/plot_supplementary_figure_5.py
 
@@ -38,7 +38,7 @@ Figure 7: figures/plot_supplementary_figure_7.py
 
 Figure 8: figures/plot_figure_7.py
 
-Figure 9:
+Figure 9: box_model/plot_supplementary_figure_9.py
 
 Figure 10: iso
 
