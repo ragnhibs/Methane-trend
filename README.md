@@ -2,7 +2,7 @@
 
 Scripts and box model used in the paper "Methane trend over the last decades driven and modified by anthropogenic emissions" by Ragnhild Bieltvedt Skeie, Øivind Hodnebrog and Gunnar Myhre to be published in the journal "Communications Earth & Environment", 2023.
 
-The scrips and isotopic box model are provided separately. This includes Figure 6 and supplementary figures 10 to 13.
+Isotopic box model and  associated scripts are provided separately. This includes scripts for Figure 6 and supplementary figures 10 to 13.
 
 
 
