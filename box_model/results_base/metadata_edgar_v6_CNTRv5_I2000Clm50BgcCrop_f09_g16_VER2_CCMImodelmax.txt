@@ -1,2 +1,0 @@
-,startyr,endyear,TAU_1,TAU_2,TAU_3,BETA_CH4,em_nat,em_antr_scen,em_bb_scen,oh_anomaly,clm_run,clm_anomaly,wet_emis,oh_run,filename_oh
-Value,1950,2020,9.6,120,160,2.84,215,edgar_v6,GFEDv41s,CCMI,CNTRv5_I2000Clm50BgcCrop_f09_g16_VER2,anom_yr,149.0,modelmax,CCMI_modelmax_OH.txt
